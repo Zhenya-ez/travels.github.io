@@ -1,0 +1,330 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(../img/bg.jpg) no-repeat top center / cover;
+  height: 1456px;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 40px;
+  float: left;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+  margin-top: 55px;
+}
+
+.menu a {
+  margin-right: 70px;
+  color: #3399ff;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: green;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+  margin-top: 250px;
+  line-height: 1.5;
+  float: left;
+  width: 458px;
+}
+
+.text {
+  width: 458px;
+  font-size: 22px;
+  color: #81858e;
+  text-align: left;
+  margin: 0;
+  margin-top: 30px;
+  float: left;
+}
+
+.vector {
+  margin-top: 0;
+  float: right;
+}
+
+.button {
+  background: #3984f3;
+  color: #fff;
+  display: block;
+  width: 202px;
+  padding: 20px 0;
+  margin: 0;
+  margin-top: 100px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  float: left;
+}
+
+.button:hover {
+  color: black;
+}
+
+.picture {
+  float: left;
+}
+
+.Maldives {
+  margin-top: 0;
+  margin: 0;
+}
+
+.Kathmandu {
+  margin-top: 0;
+  margin: 40px;
+}
+
+.Indonesia {
+  margin-top: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+  margin-top: 120px;
+  line-height: 1.5;
+  float: right;
+  width: 490px;
+}
+
+.text__next {
+  font-size: 22px;
+  color: #81858e;
+  text-align: left;
+  margin: 0px;
+  margin-top: 0;
+  float: right;
+  width: 490px;
+}
+
+.button2 {
+  background: #3984f3;
+  color: #fff;
+  display: block;
+  width: 202px;
+  padding: 20px 0;
+  margin: 62px;
+  margin-top: 162px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  float: left;
+}
+
+.button2:hover {
+  color: black;
+}
+
+.arrows {
+  margin: 180px;
+  margin-top: 700px;
+  position: absolute;
+}
+
+.titles {
+  height: 60px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin: 700px;
+  margin-top: 900px;
+  line-height: 1.5;
+  width: 490px;
+}
+
+.text3 {
+  width: 1200px;
+  font-size: 22px;
+  color: #81858e;
+  text-align: center;
+  line-height: 2;
+  margin: 10px 260px;
+}
+
+hr {
+  border: none;
+  background-color: #3399ff;
+  height: 6px;
+  width: 90px;
+  margin: 50px 820px;
+}
+
+.videos {
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 200px;
+  margin-left: 700px;
+  line-height: 1.5;
+  width: 490px;
+}
+
+.text4 {
+  width: 1200px;
+  font-size: 22px;
+  color: #81858e;
+  text-align: center;
+  line-height: 2;
+  margin-top: 10px;
+  margin-left: 260px;
+}
+
+.fotos {
+  width: 1600px;
+  margin-top: 150px;
+}
+
+.arrows2 {
+  margin-top: 80px;
+  margin-left: 890px;
+}
+
+.text5 {
+  width: 996px;
+  font-size: 22px;
+  color: #81858e;
+  text-align: center;
+  line-height: 2;
+  margin-top: 0px;
+  margin-left: 300px;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 200px;
+  margin-left: 590px;
+  line-height: 1.5;
+  width: 490px;
+}
+
+.hr2 {
+  border: none;
+  background-color: #3399ff;
+  height: 6px;
+  width: 90px;
+  margin: 50px 770px;
+}
+
+.man {
+  margin-top: 50px;
+  margin-left: 765px;
+}
+
+.left {
+  margin-top: 0px;
+  margin-left: 500px;
+}
+
+.right {
+  margin-top: 0px;
+  margin-left: 562px;
+}
+
+.name {
+  width: 180px;
+  font-size: 20px;
+  color: #81858e;
+  text-align: center;
+  margin-left: 730px;
+}
+
+.lines {
+  margin-top: 30px;
+  margin-left: 710px;
+}
+
+.bg_down {
+  width: 1600px;
+  height: 900px;
+  margin-top: 250px;
+}
+
+/* Вопрос за width и word spacing */
+.menu__down {
+  text-decoration: none;
+  padding: 0;
+  margin-left: 428px;
+  margin-top: 80px;
+  word-spacing: 25px;
+}
+
+.menu__down a {
+  color: #394047;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footerpooter {
+  color: #c6c6c6;
+}
+
+.icons {
+  margin-left: 670px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.facebook {
+  margin-left: 20px;
+}
+
+.twitter {
+  margin-left: 20px;
+}
+
+.mail {
+  margin-left: 20px;
+}
+
