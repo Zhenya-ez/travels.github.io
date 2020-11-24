@@ -101,18 +101,109 @@ h1 {
 }
 
 .Maldives {
-  margin-top: 0;
-  margin: 0;
+  margin: 5px;
+}
+
+.Kathmandu:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .Kathmandu {
-  margin-top: 0;
-  margin: 40px;
+  margin: 5px;
+  position: relative;
+}
+
+.Kathmandu_text2:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.Kathmandu_text {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  margin-top: 1495px;
+  margin-left: 425px;
+  color: #fff;
+  font-size: 24px;
+  background: #3984f3;
+  padding: 10px 0;
+  width: 70px;
+  text-align: center;
+}
+
+.Kathmandu_text2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  margin-top: 1725px;
+  margin-left: 430px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.rating-result {
+  width: 265px;
+  margin: 0 auto;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 15px;
+}
+
+.rating-result span {
+  padding: 0;
+  font-size: 32px;
+  margin: 0 3px;
+  line-height: 1;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+
+.rating-result > span:before {
+  content: "★";
+}
+
+.rating-result > span.active {
+  color: #3984f3;
+  text-shadow: 1px 1px #3984f3;
+}
+
+.Indonesia:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .Indonesia {
-  margin-top: 0;
-  margin: 0;
+  margin: 5px;
+  position: relative;
+}
+
+.Indinesia_text {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  margin-top: 1495px;
+  margin-left: 810px;
+  color: #fff;
+  font-size: 24px;
+  background: #3984f3;
+  padding: 10px 0;
+  width: 70px;
+  text-align: center;
+}
+
+.Indonesia_text2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  margin-top: 1725px;
+  margin-left: 820px;
+  color: #fff;
+  font-size: 24px;
 }
 
 h2 {
@@ -120,7 +211,6 @@ h2 {
   font-weight: bold;
   color: #000;
   text-align: left;
-  margin-top: 120px;
   line-height: 1.5;
   float: right;
   width: 490px;
@@ -130,8 +220,7 @@ h2 {
   font-size: 22px;
   color: #81858e;
   text-align: left;
-  margin: 0px;
-  margin-top: 0;
+  margin-top: 50px;
   float: right;
   width: 490px;
 }
@@ -142,8 +231,8 @@ h2 {
   display: block;
   width: 202px;
   padding: 20px 0;
-  margin: 62px;
-  margin-top: 162px;
+  margin-left: 100px;
+  margin-top: 55px;
   text-decoration: none;
   text-align: center;
   font-size: 18px;
@@ -155,9 +244,16 @@ h2 {
 }
 
 .arrows {
-  margin: 180px;
-  margin-top: 700px;
   position: absolute;
+}
+
+.arrow_right {
+  margin-top: 640px;
+  margin-left: 70px;
+}
+
+.arrow_left {
+  margin-left: 180px;
 }
 
 .titles {
@@ -191,8 +287,81 @@ hr {
   margin: 50px 820px;
 }
 
+.play {
+  margin-left: 505px;
+  margin-top: 268px;
+  position: absolute;
+}
+
+.video_text {
+  margin-left: 50px;
+  margin-top: 495px;
+  position: absolute;
+  font-size: 26px;
+  color: #fff;
+  width: 300px;
+}
+
 .videos {
   margin-top: 50px;
+  float: left;
+}
+
+.video {
+  position: absolute;
+}
+
+.videos1-5 {
+  margin-top: 60px;
+  margin-left: 1120px;
+  display: block;
+}
+
+.video1,
+.video2,
+.video3,
+.video4 {
+  margin-bottom: 23px;
+}
+
+.video1_text {
+  margin-left: 240px;
+  position: absolute;
+  width: 170px;
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+.video2_text {
+  margin-left: 240px;
+  position: absolute;
+  width: 170px;
+  font-size: 18px;
+  margin-top: 175px;
+}
+
+.video3_text {
+  margin-left: 240px;
+  position: absolute;
+  width: 170px;
+  font-size: 18px;
+  margin-top: 315px;
+}
+
+.video4_text {
+  margin-left: 240px;
+  position: absolute;
+  width: 170px;
+  font-size: 18px;
+  margin-top: 445px;
+}
+
+.video5_text {
+  margin-left: 240px;
+  position: absolute;
+  width: 170px;
+  font-size: 18px;
+  margin-top: 565px;
 }
 
 h4 {
@@ -215,14 +384,27 @@ h4 {
   margin-left: 260px;
 }
 
-.fotos {
-  width: 1600px;
-  margin-top: 150px;
+.categories2,
+.categories3,
+.categories4 {
+  margin: 28px;
+}
+
+.categories2:hover,
+.categories3:hover,
+.categories4:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .arrows2 {
   margin-top: 80px;
-  margin-left: 890px;
+  margin-left: 720px;
+}
+
+.arrow_right2 {
+  margin-left: 80px;
 }
 
 .text5 {
@@ -285,6 +467,68 @@ h5 {
   width: 1600px;
   height: 900px;
   margin-top: 250px;
+  position: absolute;
+}
+
+.text6 {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 680px;
+  font-size: 28px;
+  color: #fff;
+  width: 500px;
+  text-transform: uppercase;
+}
+
+.text7 {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 550px;
+  font-size: 38px;
+  color: #fff;
+  font-weight: bold;
+  width: 500px;
+}
+
+.destinations {
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 270px;
+  font-size: 24px;
+}
+
+.package {
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 560px;
+  font-size: 24px;
+}
+
+.calendar {
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 765px;
+  font-size: 26px;
+  color: #fff;
+}
+
+.button3 {
+  background: #3984f3;
+  color: #fff;
+  display: block;
+  width: 180px;
+  padding: 10px 0;
+  margin-left: 1150px;
+  margin-top: 760px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  float: left;
+  position: absolute;
+}
+
+.button3:hover {
+  color: black;
 }
 
 /* Вопрос за width и word spacing */
@@ -294,6 +538,7 @@ h5 {
   margin-left: 428px;
   margin-top: 80px;
   word-spacing: 25px;
+  position: absolute;
 }
 
 .menu__down a {
@@ -302,7 +547,7 @@ h5 {
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 1230px;
   text-align: center;
 }
 
@@ -312,7 +557,7 @@ h5 {
 
 .icons {
   margin-left: 670px;
-  margin-top: 28px;
+  margin-top: 130px;
   margin-bottom: 28px;
 }
 
@@ -327,4 +572,3 @@ h5 {
 .mail {
   margin-left: 20px;
 }
-
